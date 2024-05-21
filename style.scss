@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background-image: url('https://media2.giphy.com/media/MyWrJJIdAfoJuEPlLP/giphy.gif?cid=6c09b952634dzipkhbcyt1goigw5akfoxg6v8bmze6fqq2o3&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    width: 500px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.367);
+
+    .song-box {
+        width: 95%;
+        margin: 20px auto;
+        height: 60px;
+        border: 1px solid rgb(251, 249, 249);
+        border-radius: 10px;
+        padding: 0 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.181);
+    }
+
+    .action-btn {
+        span {
+            color: grey;
+            transition: all 0.1s;
+
+            &:hover {
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
+}
+
+.play {
+    color: lightseagreen;
+}
